@@ -5,6 +5,7 @@ Download and install chef- server
  chef-server-ctl reconfigure
  
  chef-server-ctl user-create admin Admin User admin@versionit.com 'password' --filename /opt/admin.pem
+ chef-server-ctl org-create devops 'VersionIT' --association_user admin --filename /opt/devops.pem
  
  chef-server-ctl install chef-manage
  chef-server-ctl reconfigure
