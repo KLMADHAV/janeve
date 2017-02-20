@@ -5,5 +5,7 @@ Download and install chef- server
  chef-server-ctl reconfigure
  
  chef-server-ctl install chef-manage
+ chef-server-ctl reconfigure
+ chef-manage-ctl reconfigure
  
  
